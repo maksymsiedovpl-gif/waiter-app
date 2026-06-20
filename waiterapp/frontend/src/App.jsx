@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Plus, Users, DollarSign, Layers, CheckCircle2, Clock, HelpCircle, Utensils, X } from 'lucide-react';
 
-const API_URL = "https://YOUR-BACKEND-URL.onrender.com/api"; // ЗАМІНИТИ ПІСЛЯ ДЕПЛОЮ БЕКЕНДУ
+const API_URL = "https://waiter-app-0yhi.onrender.com"; // ЗАМІНИТИ ПІСЛЯ ДЕПЛОЮ БЕКЕНДУ
 
 const MENU_ITEMS = [
   { name: "Стейк Рібай", price: 850, category: "Кухня", allergens: ["Глютен"] },
